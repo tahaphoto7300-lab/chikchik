@@ -1,10 +1,9 @@
 {
   "cleanUrls": true,
-  "routes": [
+  "rewrites": [
     {
-      "src": "/share",
-      "methods": ["POST"],
-      "dest": "/share.html"
+      "source": "/share",
+      "destination": "/share.html"
     }
   ]
 }
